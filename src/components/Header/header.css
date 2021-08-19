@@ -1,0 +1,60 @@
+.img-logo img {
+ height: 80px;
+ width: 120px;
+}
+
+.menu1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightblue;
+    background: #f0f0f5;
+    padding: 5px;
+}
+
+input {
+ border-radius: 15px;
+ width: 500px;
+ height: 50px;
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cep {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#login, #register, #carshop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#searchProduct {
+    padding: 10px;
+    color: blue;
+}
+
+ a {
+    text-decoration: none;
+    color: black
+}
+
+.Menu-horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    background: greenyellow;
+    padding: 5px;
+}
