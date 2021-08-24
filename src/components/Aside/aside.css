@@ -1,0 +1,17 @@
+.aside {
+    height: 65vh;
+}
+.teste {
+ display: block;
+ font-size: 16px;   
+ text-align: center;
+ padding: 5px; 
+ text-decoration: none;
+}
+
+.teste > img {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+}
+

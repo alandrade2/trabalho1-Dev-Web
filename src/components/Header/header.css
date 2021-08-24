@@ -45,16 +45,20 @@ input {
     color: blue;
 }
 
- a {
+.Menu-horizontal a {
     text-decoration: none;
-    color: black
+    color: #ffffff;
+    
 }
-
+.menu1 a {
+    text-decoration: none;
+    color: black;
+}
 .Menu-horizontal {
     display: flex;
     align-items: center;
     justify-content: space-around;
     border: 1px solid black;
-    background: greenyellow;
+    background: rgb(23, 55, 89);
     padding: 5px;
 }

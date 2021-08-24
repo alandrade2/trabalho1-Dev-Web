@@ -8,7 +8,7 @@ function Header() {
   return (
    <div>
      <header class="header">
-        <div className="menu1">
+        <nav className="menu1">
               <div class="img-logo">
                 <Link to="/">
                   <img src={ecomImg} alt="" />
@@ -33,22 +33,24 @@ function Header() {
               </div>
               <div id="register">
               <FiUserPlus size={20} color="black" />
-              <Link to="/News"><h2>Cadastro</h2></Link>
+              <Link to="#"><h2>Cadastro</h2></Link>
                 
               </div>
               <div id="carshop">
                 <FiShoppingCart size={60} color="black"/>
                 <h4>carrinho</h4>
               </div>
-        </div>
+        </nav>
 
-    <div className="Menu-horizontal">
+ 
+
+    <nav className="Menu-horizontal">
       <Link to="/"> Home </Link>
-      <Link to="/"> Setores </Link>
+      <Link to="#"> Setores </Link>
       <Link to="/News"> Novidades </Link>
-      <Link to="/"> Promoções </Link>
-      <Link to="/"> Quem Somos </Link>
-    </div>
+      <Link to="#"> Promoções </Link>
+      <Link to="#"> Quem Somos </Link>
+    </nav>
 
 
       </header>
