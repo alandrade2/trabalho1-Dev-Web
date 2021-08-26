@@ -74,20 +74,42 @@ aside {
 
 
 .input_cep {
-    padding: 20px 30px;
     display: flex;
-    flex-direction:row
+    justify-content: center;
+    margin:0;
+
+
 }
 
-.input_cep > input {
-    width: 90px;
-    height: 30px;
-    
+#cep1 {
+    width: 80px;
 }
-.input_cep > input input {
+#cep2 {
     width: 40px;
 }
 
 .lista_detalhes {
     padding: 30px 30px 30px 0;
+}
+
+.preco-total input {
+    display: block;
+    width: 120px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.frete {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

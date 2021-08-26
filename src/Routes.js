@@ -5,6 +5,7 @@ import Home from './pages/Home/Home.js';
 import Produtos from './pages/Produtos/Produtos.js';
 import Login from './pages/Login/Login.js';
 import News from './pages/News/News.js';
+import Register from './pages/Register/Register.js';
 
 
 export default function Routes() {
@@ -15,7 +16,7 @@ export default function Routes() {
                 <Route path="/Produtos" component={Produtos} />
                 <Route path="/Login" component={Login} />
                 <Route path="/News" component={News} />
-
+                <Route path="/Register" component={Register} />
             </Switch>
         </BrowserRouter>
 

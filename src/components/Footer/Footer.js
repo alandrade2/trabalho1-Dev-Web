@@ -10,7 +10,7 @@ function Footer() {
   return (
 
   <div className="footer">
-        <ul class="ulfooter" >
+        <ul className="ulfooter" >
             <li><a href="#">Quem somos</a></li>
             <li><a href="#">Nossa missão</a></li>
             <li><a href="#">Comercial</a></li>
@@ -20,19 +20,19 @@ function Footer() {
       <li>
         <a href="#">
           <img src={ImgFace}   alt="" />
-          <span>/ecommerce</span>
+          <span className="Span-footer">/ecommerce</span>
           </a>
       </li>
       <li>
         <a href="#">
           <img src={ImgInsta}   alt="" />
-          <span>@ecommerce</span>
+          <span className="Span-footer">@ecommerce</span>
         </a>
       </li>
       <li>
         <a href="#">
           <img src={ImgWhat}   alt="" />
-          <span>(16)99999-9999)</span>
+          <span className="Span-footer">(16)99999-9999</span>
         </a>
       </li>
     </ul>
