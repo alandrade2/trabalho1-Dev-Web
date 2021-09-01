@@ -69,7 +69,7 @@ function Home() {
             </article>                        
 
         </section>
-        </main>  
+    </main>  
         <aside>
           <Aside />
         </aside>

@@ -62,7 +62,7 @@
    .button {
        width: 96%;
        height: 60px;
-       background-color: rgb(49, 44, 44);
+       background-color: rgb(23, 55, 89);
        color: white;
        font-size: 30px;
        border-radius: 6px;
@@ -94,7 +94,7 @@
 .button-rodape {
    width: 200px;
    height: 30px;
-   background-color: rgb(49, 44, 44);
+   background-color: rgb(23, 55, 89);
    color: white;
    font-size: 15px;
    border-radius: 6px;

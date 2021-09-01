@@ -18,7 +18,7 @@ function Header() {
               <div className="cep">
                  <FiMapPin size={20} color="black" /> 
                   <h3>Enviar para</h3>
-                  <Link to="#"><h4>(Buscar CEP)</h4></Link>
+                  <Link to="/Endereco"><h4>(Buscar CEP)</h4></Link>
               </div>
               
               <div className="search">
@@ -32,7 +32,7 @@ function Header() {
               </div>
               <div id="register">
               <FiUserPlus size={20} color="black" />
-              <Link to="/Register"><h2>Cadastro</h2></Link>
+              <Link to="/Cadastro"><h2>Cadastro</h2></Link>
                 
               </div>
               <div id="carshop">

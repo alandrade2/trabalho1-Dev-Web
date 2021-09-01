@@ -18,7 +18,9 @@ function Login() {
      <input type="text" name="form_nome" id="nome" placeholder="Digite seu nome" required />
        <span>e-mail</span> 
      <input type="email" name="form_email" id="email" placeholder="exemplo@exemplo.com.br" required />
-        <button className="button" href="/" type="submit">Criar Conta</button> 
+      <Link to="/Cadastro">
+          <button className="button" href="/" type="submit">Criar Conta</button> 
+      </Link>     
          
        </form>
       <div className="rodape">
