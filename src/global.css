@@ -9,7 +9,8 @@
 
 body {
     font: 400 14px Roboto, sans-serif;
-    background: white;
+    background: white; 
+     -webkit-font-smoothing: antialiased;
 
 }
 

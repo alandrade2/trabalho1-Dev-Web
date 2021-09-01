@@ -43,12 +43,24 @@ function Produtos() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi necessitatibus maxime at sapiente suscipit laboriosam? Doloribus veniam, harum, perspiciatis soluta ab aliquam nemo cum hic minus eaque laboriosam, officia sequi?</p>
           <h3>Preço</h3>
           <p>R$ 300,00</p>
-          <p>Pesquisar CEP</p>
-        <div className="input_cep">
-          <input type="text" name="cep1" id="cep1" />
-          <p> -  </p>
-          <input type="text" name="cep2" id="cep2" />
+        <div className="preco-total">
+            <div className="input_cep">
+              <p>Pesquisar CEP</p>
+              <input type="text" name="cep1" id="cep1" value="14.400" />
+              <span>-</span>
+              <input type="text" name="cep2" id="cep2" value="000" />
+            </div>
+          <div className="frete">
+            <span>Valor Frete</span>
+            <input type="text" value="R$ 0,00"/>
+          </div>
+          <div className="total">
+            <span>Total</span>
+            <input type="text" value="R$ 300,00" />
+          </div>
+
         </div>
+
 
         </div>
         </section>

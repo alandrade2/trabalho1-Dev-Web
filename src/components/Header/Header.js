@@ -9,7 +9,7 @@ function Header() {
    <div>
      <header class="header">
         <nav className="menu1">
-              <div class="img-logo">
+              <div class="img-logoHeader">
                 <Link to="/">
                   <img src={ecomImg} alt="" />
                 </Link>
@@ -18,10 +18,9 @@ function Header() {
               <div className="cep">
                  <FiMapPin size={20} color="black" /> 
                   <h3>Enviar para</h3>
-                  <Link to="/Produtos"><h4>(Buscar CEP)</h4></Link>
+                  <Link to="/Endereco"><h4>(Buscar CEP)</h4></Link>
               </div>
               
-
               <div className="search">
                 <FiSearch size={40} color="black" />
                 <input type="search" name="product" id="searchProduct" placeholder="Pesquisar produto" />
@@ -33,7 +32,7 @@ function Header() {
               </div>
               <div id="register">
               <FiUserPlus size={20} color="black" />
-              <Link to="#"><h2>Cadastro</h2></Link>
+              <Link to="/Cadastro"><h2>Cadastro</h2></Link>
                 
               </div>
               <div id="carshop">
@@ -46,9 +45,9 @@ function Header() {
 
     <nav className="Menu-horizontal">
       <Link to="/"> Home </Link>
-      <Link to="#"> Setores </Link>
+      <Link to="/"> Setores </Link>
       <Link to="/News"> Novidades </Link>
-      <Link to="#"> Promoções </Link>
+      <Link to="/Produtos"> Promoções </Link>
       <Link to="#"> Quem Somos </Link>
     </nav>
 
